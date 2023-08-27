@@ -8,6 +8,7 @@ function ProductsPage() {
 
   return (
     <>
+ 
       <ProductsTable />
 
       <div className="absolute bottom-8 right-8">
@@ -18,6 +19,7 @@ function ProductsPage() {
         >
           <AddIcon />
         </Fab>
+        
       </div>
     </>
   )

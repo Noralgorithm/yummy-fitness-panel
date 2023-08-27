@@ -20,6 +20,7 @@ import { useNavigate, useLocation } from 'react-router-dom'
 const ROUTES_TITLES: Record<string, string> = {
   '/dashboard': 'Dashboard',
   '/products': 'Mis Productos',
+  '/products/create': 'Agregar nuevo producto'
 }
 
 const DRAWER_WIDTH = 260
